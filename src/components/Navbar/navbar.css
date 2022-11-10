@@ -1,0 +1,27 @@
+
+.logo{
+position: fixed;
+left:2rem;
+top:17px;
+width:7rem;
+}
+
+.avatar{
+position: fixed;
+color: white;
+top:9px;
+right:2rem;
+width:2.7rem;   
+}
+
+.NavBar{
+position: fixed;
+z-index: 999;
+top: 0px;
+width: 100%;
+display: flex;
+justify-content: space-between;
+height:4rem;
+background-color: #111;
+margin-bottom: 5px  ;
+}

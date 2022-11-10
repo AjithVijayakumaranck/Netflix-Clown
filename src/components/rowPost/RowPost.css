@@ -1,0 +1,57 @@
+.row{
+    margin-left: 20px;
+    margin-right: 20px;
+    color: white;
+}
+.posters{
+    display: flex;
+    /* padding: 20px; */
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+.PostImage{
+    margin: 0;
+    max-height: 250px;
+    transition: transform 250ms;
+    /* margin-right: 10px; */
+
+}
+.PostImage:Hover{
+    margin: 0;
+    max-height: 250px;
+    transform:scale(1.10);
+ 
+    
+    /* margin-right: 10px; */
+
+}
+
+.smallPoster{
+    margin: 5px;
+    max-height: 140px;
+    transition: transform 250 ms;
+    /* margin-right: 10px; */
+
+}
+.smallPoster:Hover{
+    margin: 0;
+    max-height: 140px;
+    transform:scale(1..2);
+ 
+    
+    /* margin-right: 10px; */
+
+}
+.posters::-webkit-scrollbar{
+    display: none;
+}
+.movieTitle{
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif;   
+    font-weight: lighter;
+    padding-left: 5px;
+    letter-spacing: .5;
+}
+.RowTitle{
+    font-family:Arial, Helvetica, sans-serif !important;   
+}
